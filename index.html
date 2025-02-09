@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paint 95</title>
+    <meta name="google" content="notranslate" />
+    <link rel="shortcut icon" href="assets/favicon.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <button>File</button>
+        <button>Edit</button>
+        <button>View</button>
+        <button>Image</button>
+        <button>Options</button>
+        <button>Help</button>
+        <a href="" class="download-canvas">
+          <img src="assets/download.svg" alt="download img" />
+        </a>
+      </header>
+      <section class="center">
+        <aside class="left">
+          <button class="option-button dashed">
+            <div class="icon" style="--index: 0"></div>
+          </button>
+          <button class="option-button select">
+            <div class="icon" style="--index: 1"></div>
+          </button>
+          <button class="option-button erase">
+            <div class="icon" style="--index: 2"></div>
+          </button>
+          <button class="option-button colorize">
+            <div class="icon" style="--index: 3"></div>
+          </button>
+          <button class="option-button eye-dropper">
+            <div class="icon" style="--index: 4"></div>
+          </button>
+          <button class="option-button lupa">
+            <div class="icon" style="--index: 5"></div>
+          </button>
+          <button class="option-button active draw-solid">
+            <div class="icon" style="--index: 6"></div>
+          </button>
+          <button class="option-button brocha">
+            <div class="icon" style="--index: 7"></div>
+          </button>
+          <button class="option-button sprite">
+            <div class="icon" style="--index: 8"></div>
+          </button>
+          <button class="option-button letters">
+            <div class="icon" style="--index: 9"></div>
+          </button>
+          <button class="option-button simple-lines">
+            <div class="icon" style="--index: 10"></div>
+          </button>
+          <button class="option-button curva">
+            <div class="icon" style="--index: 11"></div>
+          </button>
+          <button class="option-button rectangle">
+            <div class="icon" style="--index: 12"></div>
+          </button>
+          <button class="option-button free-style">
+            <div class="icon" style="--index: 13"></div>
+          </button>
+          <button class="option-button ellipse">
+            <div class="icon" style="--index: 14"></div>
+          </button>
+          <button class="option-button rectangle-radius">
+            <div class="icon" style="--index: 15"></div>
+          </button>
+        </aside>
+        <aside class="right">
+          <canvas width="510" height="328"></canvas>
+          <aside class="magnificentGlass"></aside>
+        </aside>
+      </section>
+      <footer>
+        <input type="color" class="picker" />
+        <aside class="cordinates">
+          <output class="cor-x">0</output>,
+          <output class="cor-y">0</output>
+        </aside>
+      </footer>
+    </main>
+    <div class="message">Content Available only on large devices</div>
+  </body>
+</html>
