@@ -50,7 +50,7 @@ body {
   }
 
   @media (width <= 1111px) and (orientation: portrait) {
-    transform: scale(0.5);
+    transform: scale(0.55);
   }
 
   header {
