@@ -1,4 +1,0 @@
-- **Reference / Inspiration ⬇️**
-  - [Midudev demo](https://www.javascript100.dev/09-paint-win-95)
-  - [Midudev Code](https://github.com/midudev/javascript-100-proyectos/blob/main/09-paint-win-95/index.html)
-  - [Paint Local](https://jspaint.app/)

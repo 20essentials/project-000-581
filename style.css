@@ -23,6 +23,7 @@ body {
   flex-wrap: wrap;
   place-content: center;
   background-color: #222;
+  touch-action: none;
   background: linear-gradient(90deg, #b587e6, #d169d1);
 }
 
@@ -51,12 +52,20 @@ body {
   box-shadow: 0 0 10px #0008;
 
   @media (width <= 1111px) {
+    transform: scale(0.7);
+  }
+
+  @media (width <= 700px) {
+    transform: scale(0.6);
+  }
+  /* 
+  @media (width <= 1111px) {
     display: none;
 
     & + .message {
       display: block;
     }
-  }
+  } */
 
   header {
     background-color: var(--primary);
